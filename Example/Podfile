@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Rush_Example' do
+  pod 'Rush', :path => '../'
+
+  target 'Rush_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
