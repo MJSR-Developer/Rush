@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Rush'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Rush.'
+  s.version          = '1.0.0'
+  s.summary          = 'Rush is a temporary framework for the iOS developer. This will be the kickstarter for using a standard codes to everyone.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Rush is a temporary framework for the iOS developer. This will be the kickstarter for using a standard codes to everyone. This is also help to easily develop the app.
                        DESC
 
-  s.homepage         = 'https://github.com/MJSR-Developer/Rush'
+  s.homepage         = 'https://github.com/MJSR-Developer/Rush.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MJSR-Developer' => 'roldanmjs@gmail.com' }
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

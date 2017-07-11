@@ -1,0 +1,16 @@
+PODS:
+  - Rush (0.1.0)
+
+DEPENDENCIES:
+  - Rush (from `../`)
+
+EXTERNAL SOURCES:
+  Rush:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Rush: d4d7f4a7e0db8d050233af8b1aaeb1d42dff590d
+
+PODFILE CHECKSUM: af532c9dba11690ae353f9852b7fb879c523f674
+
+COCOAPODS: 1.2.1

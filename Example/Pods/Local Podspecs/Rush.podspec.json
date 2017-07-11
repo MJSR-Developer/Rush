@@ -1,0 +1,22 @@
+{
+  "name": "Rush",
+  "version": "0.1.0",
+  "summary": "A short description of Rush.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MJSR-Developer/Rush",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MJSR-Developer": "roldanmjs@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/MJSR-Developer/Rush.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Rush/Classes/**/*"
+}

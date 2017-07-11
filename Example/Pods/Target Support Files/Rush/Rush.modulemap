@@ -1,0 +1,6 @@
+framework module Rush {
+  umbrella header "Rush-umbrella.h"
+
+  export *
+  module * { export * }
+}
