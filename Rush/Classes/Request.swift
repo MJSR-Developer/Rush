@@ -13,4 +13,11 @@ public class Request {
     var method: HTTPMethod = .get
     var parameters: Paremeters? = nil
     var headers: HTTPHeaders? = nil
+
+    public init(url: URL?, method: HTTPMethod, parameters: Paremeters?, headers: HTTPHeaders?) {
+        self.url = url
+        self.method = method
+        self.parameters = parameters
+        self.headers = headers
+    }
 }

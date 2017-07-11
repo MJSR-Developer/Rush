@@ -19,7 +19,7 @@ public class APIManager: NSObject {
     let session: URLSession?
     fileprivate var reachability: Reachability?
 
-    override init() {
+    public override init() {
         let configuration = URLSessionConfiguration.default
         configuration.allowsCellularAccess = true
         configuration.timeoutIntervalForRequest = 45.0
