@@ -20,7 +20,7 @@ public enum APIErrorCode {
     case noInternet
 }
 
-struct APIError {
+public struct APIError {
     static func urlErrorDomain(_ error: NSError) -> APIErrorCode {
         var apiError: APIErrorCode!
         switch error.code {

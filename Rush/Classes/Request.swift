@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Request {
+public class Request {
     var url: URL? = nil
     var method: HTTPMethod = .get
     var parameters: Paremeters? = nil

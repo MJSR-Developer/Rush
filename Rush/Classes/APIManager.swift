@@ -9,12 +9,12 @@
 import Foundation
 
 // MARK: HTTPMethod
-enum HTTPMethod: String {
+public enum HTTPMethod: String {
     case post   = "POST"
     case get    = "GET"
 }
 
-class APIManager: NSObject {
+public class APIManager: NSObject {
 
     let session: URLSession?
     fileprivate var reachability: Reachability?
@@ -29,7 +29,7 @@ class APIManager: NSObject {
         super.init()
     }
 
-    func request(_ request: Request,
+    public func request(_ request: Request,
                  success: @escaping (JSONDictionary) -> Void,
                  failed: @escaping (APIErrorCode) -> Void) {
 
@@ -101,7 +101,7 @@ class APIManager: NSObject {
 }
 
 extension APIManager {
-    func canConnect() -> Bool {
+    fileprivate func canConnect() -> Bool {
         if let reachable = self.reachability, reachable.isReachableViaWiFi || reachable.isReachableViaWWAN {
             return true
         } else if let reachable = self.reachability {
